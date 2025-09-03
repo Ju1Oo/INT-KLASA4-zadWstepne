@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: rgb(227, 246, 252);
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header{
+    text-align: right;
+}
+
+#headerBackground{
+    background-image: url("images/images.jpg");
+    height: 20vh;
+}
+
+#ofertaBoxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#galeriaImageContainer{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+}
+
+#footerContainer{
+    display: flex;
+    
+    gap: 20vh;
+
+}
+
+.divOferta{
+    flex-grow: 10;
+    border: dashed yellowgreen 2px;
+}
+
+.zdjecieOferta{
+    width: 30vh;
+    transition: all 2s;
+}
+
+.zdjecieOferta:hover{
+    width: 31vh;
+}
+
+.zdjecieGaleria{
+    width: 30vh;
+    transition: all 2s;
+}
+
+.zdjecieGaleria:hover{
+    transform: rotate(20deg);
+}
+
+
+
+
